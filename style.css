@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #282a3a;
+}
+
+#principal {
+    position: relative;
+    margin: auto;
+    margin-top: 10%;
+    background-color: black;
+    width: 700px;
+    height: 750px;
+    border-radius: 15px;
+
+}
+
+#header {
+    padding-top: 10px;
+    width: 40px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    font-size: 31px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+#btns {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.btn {
+    line-height: 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    width: 274px;
+    height: 18px;
+    padding: 15px 27px 15px 27px;
+    border-radius: 50px 50px 50px 50px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+a {
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #343547;
+    align-items: center;
+
+}
+
+img {
+    width: 25px;
+}
+
+#linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+
+#linha hr {
+    margin: 0 10px;
+    width: 135px;
+}
+
+#linha .ou {
+    font-weight: 700;
+    color: white;
+}
+
+input {
+    display: flex;
+    width: 282px;
+    height: 20px;
+    background-color: black;
+    font-size: 17px;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 16px;
+    padding: 20px 27px 20px 27px;
+}
+
+#btns2 {
+    flex-direction: column;
+    line-height: 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    width: 274px;
+    height: 18px;
+    padding: 15px 27px 15px 27px;
+    border-radius: 50px 50px 50px 50px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#l2 {
+    margin-top: 20px;
+    padding: 15px 27px 15px 27px;
+    color: white;
+    width: 274px;
+    border: solid 1px white;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#register { 
+    font-weight: 600;
+    display: inline-flex;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+    margin-left: 195px;
+    color: #343547
+}
+
+#register a {
+    margin-left: 5px;
+    color: blue;
+    text-decoration: underline;
+}
